@@ -203,10 +203,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-03-19 23:50:45 / 修改时间：23:59:24" itemprop="dateCreated datePublished" datetime="2020-03-19T23:50:45+08:00">2020-03-19</time>
+              <time title="创建时间：2020-03-19 23:50:45" itemprop="dateCreated datePublished" datetime="2020-03-19T23:50:45+08:00">2020-03-19</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-03-20 00:05:10" itemprop="dateModified" datetime="2020-03-20T00:05:10+08:00">2020-03-20</time>
+              </span>
 
           
 
@@ -234,7 +240,7 @@
 <li>电路正确连接时，上电瞬间，由于寄生二极管的存在，寄生二极管的导通压降实际S极 （源极）电压的电位在0.6V左右，导通后G极电位在那一瞬间Vg=VIN此时的Ugs=VIN-0.6v，Ugs大于开启电压，则NMOS管导通，导通后 Ugs的电压则由R87和R88的电阻分压共同决定 这里调节Ugs在允许范围内尽可能大 使导通电阻Ron尽量小，从而导通压降小。</li>
 <li>电源接反时：UGS=0，MOS管不会导通，和负载的回路就是断的，从而保证电路安全。</li>
 </ul>
-<h3 id="低端开关应用设计"><a href="#低端开关应用设计" class="headerlink" title="低端开关应用设计"></a>低端开关应用设计</h3><p><img src="/.io//E:%5CBlog%5Cblog%5Czhangyihang2333%5Csource_posts%5CMOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C1.png" alt></p>
+<h3 id="低端开关应用设计"><a href="#低端开关应用设计" class="headerlink" title="低端开关应用设计"></a>低端开关应用设计</h3><p><img src="/.io//E:%5CBlog%5Cblog%5Czhangyihang2333%5Csource_posts%5CMOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C1.png" alt="123"></p>
 <p>NMOS做开关作用时常用于作低端开关 通过R1 和R2 分压电阻调节Vgs的电压从而使NMOS达到导通条件 这里的阻值仅供参考 但是 这里的R1 （即和IO口连接的那个电阻）不宜过大  过大会影响NMOS的开关响应速度，也不能过小，过小单片机IO无法驱动。</p>
 <h2 id="PMOS场效应三极管"><a href="#PMOS场效应三极管" class="headerlink" title="PMOS场效应三极管"></a>PMOS场效应三极管</h2><p><img src="/.io//E:%5CBlog%5Cblog%5Czhangyihang2333%5Csource_posts%5CMOSFET%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C20170626142359768.png" alt></p>
 <p>G为栅极，S为源极，D为漏极</p>
